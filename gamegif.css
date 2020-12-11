@@ -1,5 +1,11 @@
-header{background-image: url(gaming.jpg); height: 230vh; background-size: cover; background-position: center;}
+header{background-image: url(gaming.jpg); height: 150vh; background-size: cover; background-position: center;}
 
-.play{font-size: 25px; font-color: white;}
+.play{font-size: 25px;}
+
+.paint{position: absolute; top: 30%; left: 15%;}
+.odsnake{position: absolute; top: 30%; left: 55%;}
+.mole{position: absolute; top: 70%; left: 15%;}
+.localsnake{position: absolute; top: 70%; left: 55%;}
+.multisnake{position: absolute; top: 110%; left: 35%;}
 
 body{background-color: black;}
