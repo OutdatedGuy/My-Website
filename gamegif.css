@@ -1,4 +1,6 @@
-header{background-image: url(gaming.jpg); height: 150vh; background-size: cover; background-position: center;}
+*{margin: 0; padding: 0;}
+
+header{background-image: url(gaming.jpg); height: 160vh; background-size: cover; background-position: center;}
 
 ul{float: right; list-style-type: none; margin-top: 35px; margin-right: 35px;}
 ul li{display: inline-block;}
@@ -14,17 +16,15 @@ ul li.active a{background-color: white; color: black;}
 .localsnake{position: absolute; top: 70%; left: 55%;}
 .multisnake{position: absolute; top: 120%; left: 35%;}
 
-.paint1{position: absolute; top: 58%; left: 27%;}
-.odsnake1{position: absolute; top: 58%; left: 67%;}
-.mole1{position: absolute; top: 108%; left: 27%;}
-.localsnake1{position: absolute; top: 108%; left: 67%;}
-.multisnake1{position: absolute; top: 158%; left: 47%;}
+.paint1{position: absolute; top: 50%; left: 22%; font-size: 30px;}
+.odsnake1{position: absolute; top: 50%; left: 62%; font-size: 30px;}
+.mole1{position: absolute; top: 100%; left: 22%; font-size: 30px;}
+.localsnake1{position: absolute; top: 100%; left: 64%; font-size: 30px;}
+.multisnake1{position: absolute; top: 150%; left: 41%; font-size: 30px;}
 
 body{background-color: black;}
 
 
-
-
-.logo img{position: absolute; top: 10; left: 5%; width: 80px; height: auto;}
+.logo img{position: absolute; top: 10; left: 7%; width: 80px; height: auto;}
 
 .main{max-width: 1200px; margin: auto;}

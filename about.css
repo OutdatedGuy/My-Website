@@ -5,3 +5,5 @@ body{background-image: url(gaming.jpg); height: 90vh; background-size: cover; ba
 .linkedin{position: absolute; top: 30%; left: 53%;}
 
 h1{position: absolute; top:55%; left: 44%;}
+
+.logo img{position: absolute; top: 10; left: 7%; width: 80px; height: auto;}
