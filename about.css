@@ -1,16 +1,61 @@
-body{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(gaming.jpg); height: 90vh; background-size: cover; background-position: center;}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gaming.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
 
-.github{position: absolute; top: 30%; left: 33%;}
+.github {
+    position: absolute;
+    top: 30%;
+    left: 33%;
+}
 
-.linkedin{position: absolute; top: 30%; left: 53%;}
+.linkedin {
+    position: absolute;
+    top: 30%;
+    left: 53%;
+}
 
-h1{position: absolute; top:55%; left: 44%;}
+h1 {
+    position: absolute;
+    top: 55%;
+    left: 44%;
+}
 
-.logo img{position: absolute; top: 10; left: 7%; width: 80px; height: auto;}
+.logo img {
+    position: absolute;
+    top: 10;
+    left: 7%;
+    width: 80px;
+    height: auto;
+}
 
-ul{float: right; list-style-type: none; margin-top: 35px; margin-right: 35px;}
-ul li{display: inline-block;}
-ul li a{text-decoration: none; color: white; padding: 15px 20px; border: 3px solid white; transition: 0.5s ease;}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 35px;
+    margin-right: 35px;
+}
 
-ul li a:hover{background-color: white; color: black;}
-ul li.active a{background-color: white; color: black;}
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    border: 3px solid white;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul li.active a {
+    background-color: white;
+    color: black;
+}

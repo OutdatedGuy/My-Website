@@ -1,22 +1,87 @@
-*{margin: 0; padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
 
-header{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(gaming.jpg); height: 100vh; background-size: cover; background-position: center;}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gaming.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 
-ul{float: right; list-style-type: none; margin-top: 35px; margin-right: 35px;}
-ul li{display: inline-block;}
-ul li a{text-decoration: none; color: white; padding: 15px 20px; border: 3px solid white; transition: 0.5s ease;}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 35px;
+    margin-right: 35px;
+}
 
-ul li a:hover{background-color: white; color: black;}
-ul li.active a{background-color: white; color: black;}
+ul li {
+    display: inline-block;
+}
 
-.logo img{position: absolute; top: 10; left: 7%; width: 80px; height: auto;}
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    border: 3px solid white;
+    transition: 0.5s ease;
+}
 
-.title{position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%);}
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
 
-.title h1{color: white; font-size: 70px;}
+ul li.active a {
+    background-color: white;
+    color: black;
+}
 
-.button{position: absolute; top:62%; left: 50%; transform: translate(-50%,-50%);}
-.btn{border: 1px solid white; padding: 10px 20px; color: white; text-decoration: none; transition:0.5s ease;}
-.btn:hover{background-color: white; color: black;}
+.logo img {
+    position: absolute;
+    top: 10;
+    left: 7%;
+    width: 80px;
+    height: auto;
+}
 
-.play{position:absolute; top: 62%; left: 50%; transform: translate(-50%,-50%);}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.button {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.play {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
