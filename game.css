@@ -1,6 +1,6 @@
 *{margin: 0; padding: 0;}
 
-header{background-image: url(gaming.jpg); height: 160vh; background-size: cover; background-position: center;}
+header{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(gaming.jpg); height: 160vh; background-size: cover; background-position: center;}
 
 ul{float: right; list-style-type: none; margin-top: 35px; margin-right: 35px;}
 ul li{display: inline-block;}
@@ -26,5 +26,3 @@ body{background-color: black;}
 
 
 .logo img{position: absolute; top: 10; left: 7%; width: 80px; height: auto;}
-
-.main{max-width: 1200px; margin: auto;}
