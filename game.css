@@ -44,67 +44,46 @@ ul li.active a {
     position: absolute;
     top: 20%;
     left: 15%;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
 }
 
 .odsnake {
     position: absolute;
     top: 20%;
     left: 55%;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
 }
 
 .mole {
     position: absolute;
     top: 70%;
     left: 15%;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
 }
 
 .localsnake {
     position: absolute;
     top: 70%;
     left: 55%;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
 }
 
 .multisnake {
     position: absolute;
     top: 120%;
     left: 35%;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
 }
-
-.paint1 {
-    position: absolute;
-    top: 50%;
-    left: 22%;
-    font-size: 30px;
-}
-
-.odsnake1 {
-    position: absolute;
-    top: 50%;
-    left: 62%;
-    font-size: 30px;
-}
-
-.mole1 {
-    position: absolute;
-    top: 100%;
-    left: 22%;
-    font-size: 30px;
-}
-
-.localsnake1 {
-    position: absolute;
-    top: 100%;
-    left: 64%;
-    font-size: 30px;
-}
-
-.multisnake1 {
-    position: absolute;
-    top: 150%;
-    left: 41%;
-    font-size: 30px;
-}
-
 
 .logo img {
     position: absolute;
