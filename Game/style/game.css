@@ -4,7 +4,7 @@
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(gaming.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gaming.jpg);
     height: 160vh;
     background-size: cover;
     background-position: center;
