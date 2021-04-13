@@ -46,11 +46,11 @@ ul li.active a {
 
 .games {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 400px);
+	grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
 	justify-content: center;
 	align-content: center;
-	column-gap: 100px;
-	row-gap: 150px;
+	column-gap: 200px;
+	row-gap: 200px;
 	text-align: center;
 }
 
