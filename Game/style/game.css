@@ -1,94 +1,64 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gaming.jpg);
-    height: 160vh;
-    background-size: cover;
-    background-position: center;
+main {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../img/gaming.jpg);
+	height: auto;
+	background-size: cover;
+	background-position: center;
 }
 
 ul {
-    float: right;
-    list-style-type: none;
-    margin-top: 35px;
-    margin-right: 35px;
+	float: right;
+	list-style-type: none;
+	margin-top: 35px;
+	margin-right: 35px;
 }
 
 ul li {
-    display: inline-block;
+	display: inline-block;
 }
 
 ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 15px 20px;
-    border: 3px solid white;
-    transition: 0.5s ease;
+	text-decoration: none;
+	color: white;
+	padding: 15px 20px;
+	border: 3px solid white;
+	transition: 0.5s ease;
 }
 
 ul li a:hover {
-    background-color: white;
-    color: black;
+	background-color: white;
+	color: black;
 }
 
 ul li.active a {
-    background-color: white;
-    color: black;
+	background-color: white;
+	color: black;
 }
 
-
-.paint {
-    position: absolute;
-    top: 20%;
-    left: 15%;
-    font-size: x-large;
-    text-align: center;
-    text-decoration: none;
+.games {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 400px);
+	justify-content: center;
+	align-content: center;
+	column-gap: 100px;
+	row-gap: 150px;
+	text-align: center;
 }
 
-.odsnake {
-    position: absolute;
-    top: 20%;
-    left: 55%;
-    font-size: x-large;
-    text-align: center;
-    text-decoration: none;
-}
-
-.mole {
-    position: absolute;
-    top: 70%;
-    left: 15%;
-    font-size: x-large;
-    text-align: center;
-    text-decoration: none;
-}
-
-.localsnake {
-    position: absolute;
-    top: 70%;
-    left: 55%;
-    font-size: x-large;
-    text-align: center;
-    text-decoration: none;
-}
-
-.multisnake {
-    position: absolute;
-    top: 120%;
-    left: 35%;
-    font-size: x-large;
-    text-align: center;
-    text-decoration: none;
+.child img {
+	width: 400px;
+	height: 225px;
 }
 
 .logo img {
-    position: absolute;
-    top: 1.5%;
-    left: 7%;
-    width: 80px;
-    height: auto;
+	position: absolute;
+	top: 1.5%;
+	left: 7%;
+	width: 80px;
+	height: auto;
 }
