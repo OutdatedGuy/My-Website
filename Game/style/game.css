@@ -52,6 +52,7 @@ ul li.active a {
 	column-gap: 200px;
 	row-gap: 200px;
 	text-align: center;
+	font-size: x-large;
 }
 
 .child img {
