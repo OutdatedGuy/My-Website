@@ -55,6 +55,10 @@ ul li.active a {
 	font-size: x-large;
 }
 
+.games a {
+	text-decoration: none;
+}
+
 .child img {
 	width: 400px;
 	height: 225px;
