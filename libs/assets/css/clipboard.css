@@ -1,0 +1,47 @@
+.code {
+  position: relative;
+  background-color: #333;
+  padding: 15px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  border-radius: 5px;
+}
+
+.code div {
+  display: flex;
+  justify-content:center;
+}
+
+.code .btn {
+  color: white;
+  border: 1px solid white;
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  margin-left: 3%;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.code .btn span {
+  position: absolute;
+  color: white;
+  background-color: #000000df;
+  border: 1px solid black;
+  border-radius: 14px;
+  transform: translate(-125%);
+  width: 150px;
+  visibility: hidden;
+}
+
+.code code {
+  font-size: 16px;
+  color: #eee;
+  max-width: 90%;
+}
+
+.code .btn:hover {
+  color: black;
+  background-color: white;
+}
+

@@ -1,0 +1,19 @@
+#skills span {
+  margin: 6px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: white;
+}
+
+#interests span {
+  margin: 12px 6px;
+  display: inline-block;
+  padding: 6px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: white;
+}
+
+#skills .skills-black span {
+  color: black;
+}

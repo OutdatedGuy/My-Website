@@ -1,0 +1,21 @@
+.wave4 {
+  position: relative;
+  top: 69px;
+  left: 0;
+  width: 100%;
+  /*overflow: hidden;*/
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave4 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 69px;
+}
+
+.wave4 .shape-fill {
+  fill: #F8F9FA;
+}
+

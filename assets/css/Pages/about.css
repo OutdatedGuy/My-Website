@@ -1,0 +1,63 @@
+html {
+  background-color: var(--bs-light);
+}
+
+#aboutme {
+  background-image: url("../../../assets/img/Background/about/about-bg.png");
+  background-size: cover;
+  position: relative;
+}
+
+#aboutme h1 {
+  font-size: 69px;
+}
+
+#achievements {
+  position: relative;
+  text-align: center;
+  background-image: url("../../../assets/img/Background/about/achievements-bg.png");
+  background-size: cover;
+  padding: 100px 0px 150px;
+  margin-top: -69px;
+}
+
+#achievements h1 {
+  font-size: 48px;
+  color: orangered;
+  text-decoration: overline;
+}
+
+.col-md-12 {
+  margin-bottom: 50px;
+}
+
+.col-sm-12.col-md-6 {
+  padding: 20px 10px;
+}
+
+#achievements a {
+  text-decoration: none;
+  color: black;
+}
+
+#achievements img {
+  width: 100% !important;
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  #achievements img {
+    height: 230px;
+  }
+}
+
+#codechef span {
+  font-size: 36px;
+}
+
+#interests {
+  padding: 70px 0px 20px;
+  background-color: #1d809f;
+  position: relative;
+}
+

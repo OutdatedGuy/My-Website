@@ -1,0 +1,108 @@
+html,
+body {
+  background-color: var(--bs-light);
+}
+
+.work-container {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.work-container img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.portfolio-item:hover .caption {
+  background-color: rgba(29, 128, 159, 0.9);
+}
+
+.portfolio-item .caption .caption-content p {
+  font-weight: 400;
+}
+
+#header {
+  background-image: url("../../../assets/img/Background/projects/work-bg.png");
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+#header .container {
+  padding: 200px 0px;
+}
+
+#header h1 {
+  color: yellow;
+  margin: 20px 0px;
+}
+
+#static {
+  background-image: url("../../../assets/img/Background/projects/static-bg.png");
+  background-size: cover;
+  background-color: #1d809f40;
+}
+
+#static .portfolio-item:hover .caption {
+  background-color: rgba(25, 25, 205, 0.8);
+}
+
+#static h1 {
+  width: 100%;
+  font-size: 44px;
+}
+
+#static .container {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+#mini-games {
+  padding: 100px 0px;
+  background-image: url("../../../assets/img/Background/projects/games-bg.png");
+  background-size: cover;
+  background-size: cover;
+}
+
+#mini-games .portfolio-item:hover .caption {
+  background-color: rgba(153, 0, 255, 0.8);
+}
+
+#scripts {
+  padding: 100px 0px 150px;
+  background-color: #1d809f;
+}
+
+#scripts .portfolio-item:hover .caption {
+  background-color: rgba(255, 101, 0, 0.9);
+}
+
+#static-work .col-lg-6,
+#games .col-lg-6,
+#apis .col-lg-6,
+#exe .col-lg-6 {
+  padding: 40px 20px;
+}
+
+#static-work,
+#games,
+#apis,
+#exe {
+  justify-content: center;
+}
+
+#desktop {
+  background-color: #FF9785;
+  padding: 100px 0px 50px;
+  margin-bottom: 50px;
+}
+
+#desktop .portfolio-item:hover .caption {
+  background-color: rgba(255, 238, 0, 0.9);
+}
+
+#desktop .portfolio-item:hover .caption-content {
+  color: #000;
+  transition: 0.7s;
+}

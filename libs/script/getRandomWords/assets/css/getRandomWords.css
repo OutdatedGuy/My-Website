@@ -1,0 +1,35 @@
+#getRandomWords {
+  background-color: sandybrown;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#info {
+  padding-top: 50px;
+  position: relative;
+  background-image: url("../../../../assets/img/getRandom-bg.png");
+  background-size: cover;
+}
+
+#info .parts {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#how li {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#how li li {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#how li p {
+  font-size: 18px;
+  font-weight: normal;
+}

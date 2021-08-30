@@ -1,0 +1,21 @@
+.projects-wave1 {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.projects-wave1 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 82px;
+}
+
+.projects-wave1 .shape-fill {
+  fill: #eeeeee;
+}
+

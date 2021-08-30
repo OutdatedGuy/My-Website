@@ -1,0 +1,97 @@
+html {
+  background-color: var(--bs-light);
+}
+
+.masthead h1, .masthead .h1 {
+  color: var(--bs-indigo);
+  margin-top: 65px;
+}
+
+@media (max-width: 768px) {
+  .masthead h1, .masthead .h1 {
+    font-size: 2.8em;
+  }
+}
+
+.btn.btn-primary.btn-xl.js-scroll-trigger {
+  background-color: gold;
+  border-color: var(--bs-red);
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .btn-xl {
+    padding: 15px;
+  }
+}
+
+.content-section {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.btn.btn-dark.btn-xl.js-scroll-trigger {
+  background-color: var(--bs-purple);
+}
+
+#about h1 {
+  font-size: 69px;
+}
+
+.font-monospace.lead.mb-5 {
+  border: 1px red solid;
+  padding: 30px 20px;
+}
+
+@media (max-width: 768px) {
+  .font-monospace.lead.mb-5 {
+    text-align: justify;
+    text-align-last: center;
+    font-size: 16px;
+    padding: 30px 5px;
+  }
+}
+
+#services {
+  padding-bottom: 2rem;
+}
+
+#services h1 {
+  font-size: 3.5rem;
+}
+
+#services .row {
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  #services .row {
+    margin-bottom: 30px;
+  }
+}
+
+#get-website {
+  position: relative;
+}
+
+#get-website .btn {
+  background-color: var(--bs-pink);
+  border-color: #bd2772;
+}
+
+.btn.btn-xl.me-4 {
+  margin: 10px !important;
+}
+
+#work {
+  background-color: var(--bs-blue) !important;
+}
+
+#work .container {
+  margin-top: 7rem;
+}
+
+.btn-primary:hover {
+  background-color: #bd2772;
+}
+

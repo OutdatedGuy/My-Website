@@ -1,0 +1,19 @@
+.wave3 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave3 svg {
+  position: absolute;
+  display: inline;
+  width: calc(100% + 1.3px);
+  height: 69px;
+}
+
+.wave3 .shape-fill {
+  fill: #F8F9FA;
+}
+

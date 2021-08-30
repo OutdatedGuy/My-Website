@@ -1,0 +1,20 @@
+.projects-wave3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.projects-wave3 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 69px;
+}
+
+.projects-wave3 .shape-fill {
+  fill: #1D809F;
+}
+
