@@ -55,6 +55,26 @@ body {
 
 #static .container {
   padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#apps {
+  background-image: url("../../../assets/img/Background/projects/apps-bg.png");
+  background-size: cover;
+  background-color: black;
+}
+
+#apps .portfolio-item:hover .caption {
+  background-color: rgba(205, 25, 25, 0.8);
+}
+
+#apps h1 {
+  width: 100%;
+  font-size: 44px;
+}
+
+#apps .container {
+  padding-top: 100px;
   padding-bottom: 200px;
 }
 
@@ -79,6 +99,7 @@ body {
 }
 
 #static-work .col-lg-6,
+#apps-work .col-lg-6,
 #games .col-lg-6,
 #apis .col-lg-6,
 #exe .col-lg-6 {
@@ -86,6 +107,7 @@ body {
 }
 
 #static-work,
+#apps-work,
 #games,
 #apis,
 #exe {
@@ -98,11 +120,13 @@ body {
   margin-bottom: 50px;
 }
 
-#desktop .portfolio-item:hover .caption {
+#desktop .portfolio-item:hover .caption,
+#apps .portfolio-item:hover .caption {
   background-color: rgba(255, 238, 0, 0.9);
 }
 
-#desktop .portfolio-item:hover .caption-content {
+#desktop .portfolio-item:hover .caption-content,
+#apps .portfolio-item:hover .caption-content {
   color: #000;
-  transition: 0.7s;
+  transition: 0.4s;
 }
