@@ -1,0 +1,38 @@
+#website-types {
+  position: relative;
+}
+
+.projects-clean .intro h2 {
+  margin-bottom: 15px;
+}
+
+#website-types .container .row {
+  justify-content: center;
+}
+
+.description {
+  color: black !important;
+}
+
+#contact {
+  position: relative;
+  background-color: turquoise;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#contact h1 {
+  text-decoration: underline;
+}
+
+#contact a {
+  text-decoration: none;
+  display: inline-flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+footer {
+  position: relative;
+}
+

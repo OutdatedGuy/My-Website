@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>API | trends</title>
+    <meta property="og:image" content="/libs/api/trends/assets/img/trends-api.png">
+    <meta name="description" content="Google trends API made even simpler but at some costs!">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/trends-api.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/trends-api.png">
+    <link rel="icon" type="image/png" sizes="180x180" href="./assets/img/trends-api.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/img/trends-api.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./assets/img/trends-api.png">
+    <link rel="icon" type="image/png" sizes="800x800" href="./assets/img/trends-api.png">
+    <link rel="apple-touch-icon" href="./assets/img/trends-api.png">
+    <link rel="stylesheet" href="../../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="../../../assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="../../assets/css/clipboard.css">
+    <link rel="stylesheet" href="./assets/css/trends.css">
+    <link rel="stylesheet" href="./assets/css/trends-wave1.css">
+</head>
+
+<body>
+    <header id="trends">
+        <h1>trends</h1>
+    </header>
+    <section id="info">
+        <div class="container">
+            <div id="what" class="parts">
+                <h2 style="color: var(--bs-green);">What it does?</h2>
+                <p style="font-size: 18px;">An API to get the search trends data of given word(s) in the range of one
+                    year.<br>You can have the search data of max 5 words at a time.</p>
+            </div>
+            <div id="how" class="parts">
+                <h2 style="color: var(--bs-indigo);">How to use?</h2>
+                <ul>
+                    <li>Step 1<div>
+                            <p>Copy the below code and paste it between the &lt;script&gt;&lt;/script&gt; tag in body or
+                                in a JS file or in a node environment.</p>
+                        </div>
+                        <div class="code">
+                            <pre style="margin-bottom: 0px;"><code id="func-code">(async function getTrends() {
+    const word = {
+        word: ["some", "words"], // example
+    };
+    
+    const arg = {
+        method: "POST",
+        headers: {
+        "Content-Type": "application/json",
+        },
+        body: JSON.stringify(word),
+    };
+    
+    const res = await fetch("https://outdated-trends.herokuapp.com/trends", arg);
+    const data = await res.json();
+    console.log(data);
+})();</code></pre>
+                            <div><button class="btn" type="button" onclick="copyTextToClipBoard('func-code')"><span
+                                        id="func-code-span">Copied to clipboard!</span><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                                        viewBox="0 0 16 16" class="bi bi-clipboard">
+                                        <path
+                                            d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z">
+                                        </path>
+                                        <path
+                                            d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z">
+                                        </path>
+                                    </svg></button></div>
+                        </div>
+                    </li>
+                    <li>Step 2<div>
+                            <p>Now change the words of word.word array to your liking.&nbsp;</p>
+                        </div>
+                    </li>
+                    <li>Step 3<div>
+                            <p>Expected output for array of 3 words is like:</p>
+                        </div>
+                        <div><img alt="result" src="./assets/img/result.png"></div>
+                    </li>
+                    <li>NOTE<ul>
+                            <li style="font-size: 18px;">Values<div>
+                                    <p>the word property must be an array of strings.</p>
+                                </div>
+                            </li>
+                            <li style="font-size: 18px;">Limit<div>
+                                    <p>Maximum array length should be 5</p>
+                                </div>
+                            </li>
+                            <li style="font-size: 18px;">Response<div>
+                                    <p>1. Response contains 3 properties: xAxis, yAxis and average. For data of a single
+                                        word, average is an empty array.<br><br>2. xAxis is an array of length 52 to
+                                        represent weeks in range of a year.&nbsp;<br><br>3. yAxis is an 2d array of
+                                        length 52 with values respective to the sequence of words given.<br><br>4.
+                                        average is an array of length 2-5 having values of comparison with other words
+                                        over the year.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="trends-wave1">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/clipboard.js"></script>
+</body>
+
+</html>

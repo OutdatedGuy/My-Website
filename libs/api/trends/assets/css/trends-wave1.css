@@ -1,0 +1,20 @@
+.trends-wave1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.trends-wave1 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 110px;
+}
+
+.trends-wave1 .shape-fill {
+  fill: #ee4343;
+}
+

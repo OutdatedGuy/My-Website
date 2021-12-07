@@ -1,0 +1,27 @@
+.wave2 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.wave2 .shape-fill {
+  fill: #1D809F;
+}
+
+@media (max-width: 767px) {
+  .wave2 svg {
+    width: calc(100% + 1.3px);
+    height: 150px;
+  }
+}
+
