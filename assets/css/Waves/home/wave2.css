@@ -15,7 +15,7 @@
 }
 
 .wave2 .shape-fill {
-  fill: #1D809F;
+  fill: #1d809f;
 }
 
 @media (max-width: 767px) {
@@ -24,4 +24,3 @@
     height: 150px;
   }
 }
-

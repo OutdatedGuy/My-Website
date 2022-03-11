@@ -10,7 +10,7 @@
 
 .code div {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
 .code .btn {
@@ -44,4 +44,3 @@
   color: black;
   background-color: white;
 }
-

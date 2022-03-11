@@ -2,13 +2,15 @@ html {
   background-color: var(--bs-light);
 }
 
-.masthead h1, .masthead .h1 {
+.masthead h1,
+.masthead .h1 {
   color: var(--bs-indigo);
   margin-top: 65px;
 }
 
 @media (max-width: 768px) {
-  .masthead h1, .masthead .h1 {
+  .masthead h1,
+  .masthead .h1 {
     font-size: 2.8em;
   }
 }
@@ -94,4 +96,3 @@ html {
 .btn-primary:hover {
   background-color: #bd2772;
 }
-

@@ -14,7 +14,7 @@
   color: inherit;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .projects-horizontal h2 {
     margin-bottom: 25px;
     padding-top: 25px;
@@ -37,7 +37,7 @@
   min-height: 160px;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .projects-horizontal .item {
     padding-top: 40px;
     min-height: 160px;
@@ -52,7 +52,7 @@
   color: inherit;
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .projects-horizontal .item .name {
     margin-top: 22px;
   }
@@ -62,4 +62,3 @@
   font-size: 15px;
   margin-bottom: 0;
 }
-
